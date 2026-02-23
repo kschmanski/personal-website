@@ -223,6 +223,22 @@
       padding-top: 2px;
     }
 
+    .resume-entry-bullets {
+  margin: 8px 0 0 0;
+  padding-left: 18px;
+  font-size: 14.5px;
+  color: #555;
+  line-height: 1.65;
+}
+
+.resume-entry-bullets li {
+  margin-bottom: 6px;
+}
+
+.resume-entry-bullets li:last-child {
+  margin-bottom: 0;
+}
+
     .resume-entry-desc {
       grid-column: 1 / -1;
       font-size: 14.5px;
@@ -497,21 +513,30 @@
         <div>
           <div class="resume-entry-title">Senior Software Engineer</div>
           <div class="resume-entry-sub">Wellspring Worldwide</div>
-          <div class="resume-entry-desc"></div>
+              <ul class="resume-entry-bullets">
+            <li>Design and maintain a custom MVC-based PHP web application framework enabling hundreds of client-specific plugins, improving
+system extensibility and long-term maintainability. </li><li>Design and implement custom integrations with external platforms including Google, AWS, SumoLogic, Okta, and US government
+agency systems, ensuring secure and reliable data exchange.</li><li>Architect CI/CD pipelines using Jenkins and Groovy to automate deployments, security scanning, and frontend testing, reducing
+manual engineering effort and increasing release reliability.</li>
+              </ul>
         </div>
         <div class="resume-entry-date">2019 – Present</div>
       </div>
-      <!-- <div class="resume-entry">
-        <div>
-          <div class="resume-entry-title">Software Engineer</div>
-          <div class="resume-entry-sub">Wellspring Worldwide</div>
-          <div class="resume-entry-desc"></div>
+
+      <div class="resume-entry">
+              <div>
+
+          <div class="resume-entry-title">Consultant</div>
+          <div class="resume-entry-sub">West Monroe Partners</div>
+              <ul class="resume-entry-bullets">
+            <li>Developed ETL packages on client data platform using SSIS, ingesting over 200 sources of data per day</li><li>Created functions, stored procedures, and database objects to manipulate data in PostGres and SQL Server</li><li>Developed a dashboard in QlikView for a call center client and migrated features from previous legacy tool</li>
+              </ul>
         </div>
-        <div class="resume-entry-date">2019 – 2024</div>
-      </div> -->
+        <div class="resume-entry-date">2016 – 2017</div>
+      </div>
+
     </div>
 
-    <hr class="divider" />
     <p class="section-label">Education</p>
 
     <div class="resume-block">
@@ -520,7 +545,7 @@
           <div class="resume-entry-title">M.S. Computer Science</div>
           <div class="resume-entry-sub">DePaul University</div>
         </div>
-        <div class="resume-entry-date">2021</div>
+        <div class="resume-entry-date">2018 – 2021</div>
       </div>
       <div class="resume-entry">
         <div>
@@ -528,12 +553,11 @@
           <div class="resume-entry-sub">University of Minnesota</div>
           <div class="resume-entry-sub" style="font-style: italic; color: #92720a;">Summa Cum Laude</div>
         </div>
-        <div class="resume-entry-date">2016</div>
+        <div class="resume-entry-date">2012 – 2016</div>
       </div>
     </div>
 
 
-    <hr class="divider" />
     <p class="section-label">Skills</p>
 
     <div class="skill-chips">
